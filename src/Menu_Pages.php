@@ -83,6 +83,8 @@ class Menu_Pages implements Hookable {
 	 */
 	private function cache_interface_example_view(): callable {
 		return function() {
+			echo '<h1>Cache Interface Example</h1>';
+
 			echo '<pre><code>';
 
 			// Instance of File Cache created with default details via method call.
