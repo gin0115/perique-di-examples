@@ -12,9 +12,9 @@ use Gin0115\Perique_Container_Example\Nested\Fluent_Dependency;
 
 class Child {
 
-	public $fluid_dependency;
+	public $fluent_dependency;
 
-	public function __construct( Fluent_Dependency $fluid_dependency ) {
-		$this->fluid_dependency = $fluid_dependency;
+	public function __construct( Fluent_Dependency $fluent_dependency ) {
+		$this->fluent_dependency = $fluent_dependency;
 	}
 }
