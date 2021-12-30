@@ -61,7 +61,7 @@ class Menu_Pages implements Hookable {
 			'manage_options',
 			'perique_di_ex_cache',
 			$this->cache_interface_example_view(),
-			'page',
+			'dashicons-carrot',
 			10
 		);
 
@@ -116,6 +116,7 @@ class Menu_Pages implements Hookable {
 	 */
 	private function nested_example_view(): callable {
 		return function() {
+			echo '<h1>Nested Example</h1>';
 			echo '<pre><code>';
 
 			// Creates a parent service with no custom rules for the Fluent Dependency
