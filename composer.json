@@ -1,0 +1,18 @@
+{
+    "name": "gin0115/perique-di-container-example",
+    "description": "A selection of examples of using the DI Container with the Perique Framework (https://github.com/Pink-Crab/Perqiue-Framework/)",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gin0115\\Perique_Container_Example\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "Glynn Quelch",
+        "email": "glynn.quelch@gmail.com"
+    }],
+    "require": {
+        "pinkcrab/perique-framework-core": "^1.0"
+    }
+}
