@@ -18,6 +18,12 @@ These examples show how an Interface can be used with the Container. You can use
 
 These examples show how dependencies can be nested and how you can swap out instances of dependencies and run custom initialisation with classes that use a fluent API.
 
-> If you would like to see any other examples using the Container, please leave an issue with more details.
+> The `$dependencies` array on the `plugin.php` file, is better suited in a file. Our examples do this using `config/dependencies.php'
+
+***
+
+## If you would like to see any other examples using the Container, please leave an issue with more details.
+
+***
 
 # [Read the Full DI Docs](https://perique.info/core/DI/)
